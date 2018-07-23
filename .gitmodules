@@ -1,6 +1,0 @@
-[submodule "V2X_Component"]
-	path = V2X_Component
-	url = https://github.com/tarangr/V2X_Component.git
-[submodule "V2X_Application"]
-	path = V2X_Application
-	url = https://github.com/tarangr/V2X_Application.git
