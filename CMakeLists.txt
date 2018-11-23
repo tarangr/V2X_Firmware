@@ -7,11 +7,11 @@ option(WITH_FEATURE_A "Option description" ON)
 option(WITH_FEATURE_B "Option description" ON)
 
 if(WITH_FEATURE_A)
-  set(CMAKE_UTILITIES_RUN ${CMAKE_CURRENT_SOURCE_DIR}/Run)
+  set(CMAKE_UTILITIES_RUN ${CMAKE_CURRENT_SOURCE_DIR}/V2X_Application/Run)
   add_subdirectory(${CMAKE_UTILITIES_RUN})
 endif()
 
 if(WITH_FEATURE_B)
-set(CMAKE_UTILITIES_HALT ${CMAKE_CURRENT_SOURCE_DIR}/Halt)
+set(CMAKE_UTILITIES_HALT ${CMAKE_CURRENT_SOURCE_DIR}/V2X_Component/Halt)
 add_subdirectory(${CMAKE_UTILITIES_HALT})
 endif()
