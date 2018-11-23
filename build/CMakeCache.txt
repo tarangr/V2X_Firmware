@@ -177,10 +177,10 @@ Danlawv2x_toolchain_BINARY_DIR:STATIC=/home/tarang/gitcln/V2X_Firmware/build/V2X
 Danlawv2x_toolchain_SOURCE_DIR:STATIC=/home/tarang/gitcln/V2X_Firmware/V2X_Component/Halt
 
 //Value Computed by CMake
-Utilities_BINARY_DIR:STATIC=/home/tarang/gitcln/V2X_Firmware/build/V2X_Component/Halt
+Utilities_BINARY_DIR:STATIC=/home/tarang/gitcln/V2X_Firmware/build
 
 //Value Computed by CMake
-Utilities_SOURCE_DIR:STATIC=/home/tarang/gitcln/V2X_Firmware/V2X_Component/Halt
+Utilities_SOURCE_DIR:STATIC=/home/tarang/gitcln/V2X_Firmware
 
 //Option description
 WITH_FEATURE_A:BOOL=ON
@@ -281,7 +281,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=3
+CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
