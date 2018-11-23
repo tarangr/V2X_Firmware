@@ -1,0 +1,2 @@
+/home/tarang/gitcln/V2X_Firmware/build/V2X_Component/Halt/CMakeFiles/Halt.dir
+/home/tarang/gitcln/V2X_Firmware/build/V2X_Application/Run/CMakeFiles/Run.dir

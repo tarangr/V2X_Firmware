@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tarang/gitcln/V2X_Firmware/V2X_Application/Run/src/run-cmd.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
